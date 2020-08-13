@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
+	  <UseWPF>true</UseWPF>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>XAML FlowDocument to HTML Conversion Prototype</Description>
+    <Authors>Nathan Harrenstein</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+    <Page Remove="Properties\**" />
+  </ItemGroup>
+</Project>
